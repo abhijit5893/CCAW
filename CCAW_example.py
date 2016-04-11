@@ -28,4 +28,5 @@ X_mat = N.hstack([X.image_data_masked, Y.image_data_masked])
 dpgmm = mixture.DPGMM(alpha=2.5, n_components=10, covariance_type='full')
 dpgmm.fit(X_mat)
 
+print 'Hi'
 
